@@ -1,7 +1,5 @@
 # Sass::Images
 
-TODO: Write a gem description
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,7 +16,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem adds new sass helpers especially made to deal with image properties.
+
+Right now it includes:
+
+* `image_width($path)`: Returns the width (px) of an image
+* `image_height($path)`: Returns the height (px) of an image
 
 ## Contributing
 
