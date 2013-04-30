@@ -1,9 +1,9 @@
 require_relative '../../../spec_helper'
 
-describe Sass::Images::Helpers do
+describe Sass::Images::Functions do
   subject do
     klass = Class.new do
-      include Sass::Images::Helpers
+      include Sass::Images::Functions
     end
     klass.new
   end

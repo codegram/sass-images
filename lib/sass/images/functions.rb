@@ -3,7 +3,7 @@ require 'sass'
 require_relative 'image_meta'
 
 module Sass::Images
-  module Helpers
+  module Functions
     def image_width(path)
       width = ImageMeta.new(resolve_path path).width
       Sass::Script::Number.new width, ['px']
@@ -21,3 +21,5 @@ module Sass::Images
     end
   end
 end
+
+Sass::Script::Functions.send :include, Sass::Images::Functions

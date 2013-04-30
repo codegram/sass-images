@@ -1,6 +1,5 @@
 require "sass/images/version"
-require "sass/images/helpers"
-require "sass/script/functions"
+require "sass/images/functions"
 
 module Sass
   module Images
@@ -15,4 +14,3 @@ module Sass
 end
 
 require "sass/images/railtie"
-Sass::Script::Functions.send :include, Sass::Images::Helpers
