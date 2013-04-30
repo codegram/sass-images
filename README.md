@@ -5,7 +5,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'sass-images', github: 'codegram/sass-images'
+    gem 'sass-images'
 
 And then execute:
 
