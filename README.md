@@ -5,15 +5,13 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'sass-images'
+```Ruby
+gem 'sass-images', github: 'codegram/sass-images'
+```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install sass-images
 
 ## Usage
 
@@ -24,6 +22,18 @@ Right now it includes:
 * `image-width($path)`: Returns the width (px) of an image
 * `image-height($path)`: Returns the height (px) of an image
 * `inline-image($path)`: Returns an inlined Data URI scheme of an image
+
+### Example
+
+```sass
+h1.logo a
+  display: block
+  text-indent: -999em
+  overflow: hidden
+  width: image-width('logo.png')
+  height: image-height('logo.png')
+  background-image: inline-image('logo.png')
+```
 
 ## Contributing
 
