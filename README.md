@@ -27,8 +27,9 @@ Right now it includes:
 
 ```sass
 h1.logo a
-  text-indent: -999em
   display: block
+  text-indent: -999em
+  overflow: hidden
   width: image-width('logo.png')
   height: image-height('logo.png')
   background-image: inline-image('logo.png')
