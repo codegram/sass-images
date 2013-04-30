@@ -5,15 +5,11 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'sass-images'
+    gem 'sass-images', github: 'codegram/sass-images'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install sass-images
 
 ## Usage
 
