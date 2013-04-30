@@ -23,6 +23,18 @@ Right now it includes:
 * `image-height($path)`: Returns the height (px) of an image
 * `inline-image($path)`: Returns an inlined Data URI scheme of an image
 
+### Example
+
+```sass
+h1.logo
+  a
+    text-indent: -999em
+    display: block
+    width: image-width('logo.png')
+    height: image-height('logo.png')
+    background-image: inline-image('logo.png')
+```
+
 ## Contributing
 
 1. Fork it
