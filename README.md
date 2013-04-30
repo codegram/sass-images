@@ -26,13 +26,12 @@ Right now it includes:
 ### Example
 
 ```sass
-h1.logo
-  a
-    text-indent: -999em
-    display: block
-    width: image-width('logo.png')
-    height: image-height('logo.png')
-    background-image: inline-image('logo.png')
+h1.logo a
+  text-indent: -999em
+  display: block
+  width: image-width('logo.png')
+  height: image-height('logo.png')
+  background-image: inline-image('logo.png')
 ```
 
 ## Contributing
