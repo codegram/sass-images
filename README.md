@@ -20,8 +20,9 @@ This gem adds new sass helpers especially made to deal with image properties.
 
 Right now it includes:
 
-* `image_width($path)`: Returns the width (px) of an image
-* `image_height($path)`: Returns the height (px) of an image
+* `image-width($path)`: Returns the width (px) of an image
+* `image-height($path)`: Returns the height (px) of an image
+* `inline-image($path)`: Returns an inlined Data URI scheme of an image
 
 ## Contributing
 

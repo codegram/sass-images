@@ -25,4 +25,12 @@ describe Sass::Images::Functions do
       expect(height.to_s).to eq('218px')
     end
   end
+
+  describe "inline_image" do
+    it "returns a data URI scheme" do
+      inline = subject.inline_image(image)
+      expect(inline.value).to match(/^url\(data:image\/jpeg;base64.*\)$/)
+      expect(inline.value)
+    end
+  end
 end

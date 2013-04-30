@@ -1,17 +1,23 @@
 require 'mini_magick'
 require 'sass'
-require_relative 'image_meta'
+require_relative 'image'
 
 module Sass::Images
   module Functions
     def image_width(path)
-      width = ImageMeta.new(resolve_path path).width
-      Sass::Script::Number.new width, ['px']
+      image = Image.new(resolve_path path)
+      Sass::Script::Number.new image.width, ['px']
     end
 
     def image_height(path)
-      height = ImageMeta.new(resolve_path path).height
-      Sass::Script::Number.new height, ['px']
+      image = Image.new(resolve_path path)
+      Sass::Script::Number.new image.height, ['px']
+    end
+
+    def inline_image(path)
+      image = Image.new(resolve_path path)
+      data_uri = "data:#{image.content_type};base64,#{image.base64}"
+      Sass::Script::String.new "url(#{data_uri})", :string
     end
 
     private

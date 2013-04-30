@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "sass"
   spec.add_runtime_dependency "mini_magick"
+  spec.add_runtime_dependency "mime-types"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
