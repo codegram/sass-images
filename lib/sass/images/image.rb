@@ -3,7 +3,7 @@ require 'base64'
 
 class Sass::Images::Image
   def initialize(path)
-    @path = path
+    @path = path.to_s
   end
 
   def width

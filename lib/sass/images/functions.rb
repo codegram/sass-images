@@ -17,7 +17,7 @@ module Sass::Images
     def inline_image(path)
       image = Image.new(resolve_path path)
       data_uri = "data:#{image.content_type};base64,#{image.base64}"
-      Sass::Script::String.new "url(#{data_uri})", :string
+      Sass::Script::String.new "url(#{data_uri})"
     end
 
     private
