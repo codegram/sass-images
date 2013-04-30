@@ -35,6 +35,11 @@ h1.logo a
   background-image: inline-image('logo.png')
 ```
 
+## Rails integration
+
+`sass-images` is fully integrated with Rails and will find your asset pipeline's
+assets just like you would expect.
+
 ## Contributing
 
 1. Fork it
