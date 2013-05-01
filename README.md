@@ -1,4 +1,5 @@
 # Sass::Images
+[![Gem Version](https://badge.fury.io/rb/sass-images.png)](http://badge.fury.io/rb/sass-images)
 [![Build Status](https://travis-ci.org/codegram/sass-images.png?branch=master)](https://travis-ci.org/codegram/sass-images)
 
 ## Installation
