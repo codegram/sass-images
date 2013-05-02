@@ -1,6 +1,7 @@
 # Sass::Images
 [![Gem Version](https://badge.fury.io/rb/sass-images.png)](http://badge.fury.io/rb/sass-images)
 [![Build Status](https://travis-ci.org/codegram/sass-images.png?branch=master)](https://travis-ci.org/codegram/sass-images)
+[![Dependency Status](https://gemnasium.com/codegram/sass-images.png)](https://gemnasium.com/codegram/sass-images)
 [![Coverage Status](https://coveralls.io/repos/codegram/sass-images/badge.png?branch=master)](https://coveralls.io/r/codegram/sass-images)
 
 ## Installation
